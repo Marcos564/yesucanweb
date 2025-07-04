@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YesUCan</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/logo.ico" type="image/x-icon"> <!--icono ventana -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- ver que hace-->
+     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">  <!-- fontawesome-->
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="crossorigin=""></script>
+</head>
+<body style="padding-top: 150px;">
+    <header>
+        <img src="images/logo.jpg" alt="logo" style=" height: 8rem; width: 15rem;">
+
+        <div class="hamburguesa" id="hamburguesa">
+            <i class="fas fa-bars"></i>
+        </div>
+
+        <ul id="barra-superior">
+            <li> <a href="#">Home</a> </li>
+            <li> <a href="#about">Nosotros</a></li>
+            <li> <a href="#servicios">Servicios</a></li>
+            <li> <a href="#metodo">Método</a></li>
+            <li> <a href="#colum1">Contacto</a></li>
+        </ul>
+
+    </header>
+
+    <div id="container">
+        <h2>Ayudamos a Emprendedores a crecer</h2>
+        
+        <img src="images/gimnasta-femenina-haciendo-un-truco-complicado.jpg" alt="" 
+        style="height: 20rem; width: 28rem; ">
+
+        <h3>"Si puedes. Con estrategia y coraje"</h3>
+    </div>
+
+
+    <div id="about">
+    <h3>Sobre Nosotros / Identidad</h3>
+    <p>
+        En Yesucan somos una consultora creada por emprendedores que entienden lo que significa liderar un
+        negocio desde cero. Aportamos herramientas estratégicas y acompañamiento humano para ayudarte a
+        ordenar tu empresa, tomar mejores decisiones y liderar con claridad, foco y confianza. Trabajamos tanto
+        el negocio como al emprendedor, porque sabemos que uno impacta directamente en el otro
+    </p>
+
+
+    <div class="founder">
+       
+        <div style="flex: 1; text-align: center;">
+        <img src="images/fotofounder.jpg" id="foto_founder" alt="" style="height: 22rem; width: 18rem; border-radius: 0.5rem ">
+        </div>
+
+
+        <div style="flex: 2;"> 
+        
+            <h4>Palabras del Founder</h4>
+            <h4 style="font-style: italic;">"Sé lo que es emprender. Yo también estuve ahí"</h4>
+        
+
+            <p> Soy Gustavo Vodeb. Desde joven emprendí en el mundo de la tecnología y
+             lideré una empresa innovadora para el sector jurídico. Me formé como
+             Contador Público, obtuve un MBA, y realizar varios cursos de posgrados en
+              desarrollo de Pymes. Hace un tiempo descubrí una nueva vocación que es
+              ayudar a otros emprendedores a crecer.
+               Hoy acompaño a quienes quieren mejorar sus decisiones, fortalecer su
+               liderazgo y desarrollar su potencial con estrategia y coraje
+            </p>
+        </div>    
+
+    </div>
+
+    </div>
+
+    <br>
+    <h3>Servicios</h3>
+    <div class="servicios" id="servicios">
+        
+
+
+        <div class="card_servicio">
+            <p class="titulo">Diagnóstico Yesucan</p>
+            <p class="text_service"> Una o dos sesiones iniciales para evaluar en profundidad tu negocio y tu perfil
+              como emprendedor. Es el punto de partida ideal para trazar un plan.
+            </p>
+        </div>
+
+        <div class="card_servicio">
+            <p class="titulo">Mentoreo individual</p>
+            <p class="text_service"> Acompañamiento mensual o quincenal, combinando lo estratégico con lo
+              personal. Trabajamos juntos tus desafíos concretos y tus decisiones clave.
+            </p>
+        </div>
+
+        <div class="card_servicio">
+         <p class="titulo">Intensivo 1 a 1</p>
+         <p class="text_service"> 
+            Un proceso profundo y concentrado para transformar tu negocio en 2 semanas o
+            1 mes. Ideal para momentos de crisis o crecimiento. 
+         </p>
+        </div>
+
+        <div class="card_servicio">
+            <p class="titulo"> Talleres / Grupos</p>
+            <p class="text_service">
+              Un proceso profundo y concentrado para transformar tu negocio en 2 semanas o
+             1 mes. Ideal para momentos de crisis o crecimiento. 
+            </p>
+        </div>
+
+
+    </div>
+
+    <h3 style="margin-top: 2rem;">Metodo</h3>
+    <p class="titulo">Método Yesucan</p>
+    <div id="metodo">
+        <p><br><br>
+             3 ejes de trabajo: <br><br>
+             1. Negocio<br>
+             • Herramientas y decisiones estratégicas para que tu empresa crezca con
+             foco y rentabilidad.<br>
+             • Análisis de modelo de negocio, finanzas, organización y procesos.<br><br>
+             2. Emprendedor<br>
+          • Acompañamiento personal para liderar desde un lugar más sólido y
+          auténtico.<br>
+          • Claridad mental y emocional, toma de decisiones difíciles, gestión del
+           coraje y la confianza.<br><br>
+               3. Acción<br>
+           •    Aterrizamos todo en un plan concreto y ejecutable.<br>
+           •    Priorización, estructura, seguimiento y hábitos.
+        </p>
+    </div>
+
+
+
+    <br>
+
+    <h4 id="h4_footer">Escribimos y comencemos este gran desafío para ayudarte a alcanzar tu máximo potencial. Si, puedes.</h4>
+    <footer>
+
+        <div class="footer_columns">
+        <div id="colum1" style="flex: 1; margin-top: 4rem;">
+
+            <br>
+            <div id="map" style="width: 220px; height: 220px;  margin: auto; "></div>
+            
+            <div id="direcion" style="margin: auto; width:fit-content;">
+                <p>Central Ofiice: </p>
+                <p>Alicia Moreau de justo 1150 P2</p>
+                <p>Puerto Madero-CABA</p> 
+                <p>Argentina.</p>
+                <p>TeL. +5411-5217-7537</p>
+            </div>
+
+        </div>
+        
+
+        <div id="column2" style="flex: 1; margin-top: 2rem;">
+        <h4>Contacto: </h4>
+        <form action="submit">
+            <label for="nombre"></label>
+            <input type="text" name="nombre" required placeholder="Nombre"><br><br>
+
+            
+            <input type="text" name="empresa" required placeholder="Empresa u Organización"><br><br>
+
+            <input type="text" name="telefono" required placeholder="Telefono"><br><br>
+
+            <input type="text" name="pais" required placeholder="Pais"><br><br>
+
+            <input type="email" name="mail" required placeholder="Direccion de Correo"><br><br>
+
+            <textarea name="mensaje" rows="5" cols="50" placeholder="Mensaje" style="resize: none"></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+
+        </div>
+
+        </div>
+
+        <hr style="width: 95%;">
+        <p style="text-align: center; margin-bottom: 0;"> © 2025 YesUCan</p>
+    </footer>
+
+   
+    <script src="app.js"></script>
+</body>
+</html>
